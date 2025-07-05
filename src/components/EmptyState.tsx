@@ -56,13 +56,7 @@ export const EmptyState: React.FC<EmptyStateProps> = ({ hasModel, onLoadModel })
 
   return (
     <div className="flex-1 flex items-center justify-center p-8">
-      <div className="text-center max-w-md">
-        <div className="flex justify-center mb-6">
-          <div className="w-16 h-16 bg-gradient-to-br from-blue-500 to-purple-600 rounded-full flex items-center justify-center">
-            <Brain className="w-8 h-8 text-white" />
-          </div>
-        </div>
-        
+      <div className="text-center max-w-md">        
         <h2 className="text-2xl font-bold text-gray-900 mb-3">
           Ready to Chat
         </h2>

@@ -18,7 +18,6 @@ export const ModelLoadingIndicator: React.FC<ModelLoadingIndicatorProps> = ({
         <div className="text-center">
           <div className="flex justify-center mb-4">
             <div className="relative">
-              <Brain className="w-12 h-12 text-blue-600 animate-pulse" />
               <Download className="w-6 h-6 text-blue-800 absolute -bottom-1 -right-1 animate-bounce" />
             </div>
           </div>
